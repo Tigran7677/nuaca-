@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="css/header.css">
+<script src="js/header.js"></script>
+
+
+<header class="header">
+    <div class="header__container">
+        <!-- Logo Section -->
+        <a href="/" class="header__logo">
+            <img src="image/logo_nuaca.svg" alt="Company Logo" class="header__logo-img">
+        </a>
+
+        <!-- Navigation Bar -->
+        <nav class="header__nav">
+            <!-- Mobile Menu Toggle -->
+            <button class="header__mobile-toggle" aria-expanded="false" aria-label="Mobile Menu">
+                <span class="header__hamburger"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Գլխավոր</a></li>
+                <li class="header__nav-item"><a href="/about" class="header__nav-link">Մեր Մասին</a></li>
+                <li class="header__nav-item"><a href="/services" class="header__nav-link">Ծառայություններ</a></li>
+                <li class="header__nav-item"><a href="/contact" class="header__nav-link">Կապ</a></li>
+            </ul>
+
+            <!-- Additional Navigation Elements -->
+            <div class="header__utilities">
+                <select class="header__language" aria-label="Language Selector">
+                    <option value="hy">Հայերեն</option>
+                    <option value="ru">Русский</option>
+                    <option value="en">English</option>
+                </select>
+                <div class="header__auth">
+                    <a href="/login" class="header__button">Մուտք</a>
+                    <a href="register.html" class="header__button header__button--primary">Գրանցում</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+    <!-- Chat Widget -->
+<div class="chat-widget">
+    <button class="chat-toggle" aria-label="Open Chat">
+        <span class="chat-icon">💬</span>
+        <span class="unread-count">2</span>
+    </button>
+    
+    <div class="chat-window">
+        <div class="chat-header">
+            <h3>Live Chat</h3>
+            <button class="close-chat" aria-label="Close Chat">×</button>
+        </div>
+        
+        <div class="chat-body">
+            <div class="messages">
+                <div class="message received">
+                    <div class="message-content">Welcome! How can we help you today?</div>
+                    <div class="message-time">10:02 AM</div>
+                </div>
+                <div class="message sent">
+                    <div class="message-content">Hi, I have a question about the article</div>
+                    <div class="message-time">10:03 AM</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <textarea placeholder="Type your message..." aria-label="Type your message"></textarea>
+            <button class="send-button">Send</button>
+        </div>
+    </div>
+</div>
+
+    <script src="js/chat.js"></script>
+</body>
+</html>
